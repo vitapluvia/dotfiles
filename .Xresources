@@ -1,0 +1,10 @@
+URxvt.perl-ext-common: font-size
+URxvt*.depth: 32
+URxvt*.foreground: #FFF
+URxvt*.background: [95]#000000
+URxvt*.scrollBar: false
+URxvt*.font: xft:DejaVu Sans Mono:pixelsize=14
+URxvt.keysym.C-equal:   perl:font-size:increase
+URxvt.keysym.C-minus:   perl:font-size:decrease
+URxvt.keysym.C-S-equal: perl:font-size:incglobal
+URxvt.keysym.C-S-minus: perl:font-size:decglobal
