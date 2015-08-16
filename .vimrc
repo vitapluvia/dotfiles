@@ -10,6 +10,7 @@ Plug 'junegunn/vim-easy-align'
 Plug 'tpope/vim-fugitive'
 Plug 'Lokaltog/vim-powerline'
 Plug 'scrooloose/nerdtree'
+Plug 'flazz/vim-colorschemes'
 Plug 'marcweber/vim-addon-mw-utils'
 Plug 'vim-scripts/DrawIt'
 Plug 'Lokaltog/vim-easymotion'
@@ -142,9 +143,9 @@ map <C-l> :bn<cr>
 map <C-h> :bp<cr>
 
 " Quick Cmds
-map <C-q> :q<cr>
-map <C-w> :w<cr>
-map <C-x> :x<cr>
+map <leader>q :q<cr>
+map <leader>w :w<cr>
+map <leader>x :x<cr>
 map <leader>b :bd<cr>
 
 " taglist stuff
