@@ -3,6 +3,9 @@
 # Setup Oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# Make backup, swap & undo directories for vim
+mkdir ~/.vim/backup ~/.vim/swap ~/.vim/undo
+
 # Setup fzf
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
@@ -16,5 +19,3 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 
 # Change current shell to ZSH
 chsh -s /bin/zsh
-
-
